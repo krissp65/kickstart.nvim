@@ -4,7 +4,7 @@ return {
     version = "*",
     opts = {
       direction = "horizontal",
-      shell = "/usr/sbin/zsh"
+      shell = "zsh"
     }
   },
 }
