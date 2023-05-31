@@ -18,5 +18,5 @@ map("n", "<c-t>", "<cmd>ToggleTerm<cr>", { desc = "Toggle Terminal" })
 map("t", "<ESC><ESC>", "<c-\\><c-n>", { desc = "Exit terminal mode " })
 map("t", "jk", "<c-\\><c-n>", { desc = "Exit terminal mode " })
 
-
--- more move improvements
+-- Exit nvim
+map("n", "<leader>q", "<cmd>qall<cr>", { desc = "Quit All" })
