@@ -61,3 +61,6 @@ map('n', '<A->>', '<Cmd>BufferMoveNext<CR>', { noremap = true, silent = true, de
 map('n', '<leader>b>', '<Cmd>BufferMoveNext<CR>', { noremap = true, silent = true, desc = "Move Buffer Right" })
 map('n', '<A-c>', '<Cmd>BufferClose<CR>', { noremap = true, silent = true, desc = "Close Buffer" })
 map('n', '<leader>bc', '<Cmd>BufferClose<CR>', { noremap = true, silent = true, desc = "Close Buffer" })
+
+-- lazygit
+map("n", "<leader>gg", "<cmd>LazyGit<cr>", { noremap = true, silent = true, desc = "LazyGit" })
